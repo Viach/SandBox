@@ -36,7 +36,7 @@ class Rainbow:
     @sleep_it_generator(delay=3)
     def _get__colors(self) -> str:
         """
-        yield colors in infinite loop
+        yield colors in an infinite loop
         """
         i = 0
         while self.circle:
